@@ -7,10 +7,10 @@
 //console.dir(document);
 //let firstButton = document.body.children[2].children[4];
 
-let firstButton = document.querySelector("button");
+const firstButton = document.querySelector("button");
 console.log(firstButton);
 
-let secondButton = document.getElementById("second-button");
+const secondButton = document.getElementById("second-button");
 console.log(secondButton);
 
 // 2) Add "click" event listener to both buttons (with two different functions).
